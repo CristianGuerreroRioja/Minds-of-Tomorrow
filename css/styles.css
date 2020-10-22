@@ -7,7 +7,7 @@ body {
     margin: 0;
 }
 
-.header {
+.header1 {
     background-image: url('../img/banner-2.jpg');
     background-size: cover;
     background-attachment: fixed;
@@ -16,8 +16,78 @@ body {
     color: rgb(0, 0, 0);
 }
 
-.section-2 {
+.header1 h1 {
+    font-size: 60px;
+}
+
+.dos-columnas {
+    padding: 20px;
+    float: left;
+    width: 50%;
+}
+
+.dos-columnas img {
+    width: 100%;
+}
+
+.dos-columnas h1,
+.una-columna h1 {
+    font-size: 6vw;
+}
+
+.dos-columnas p {
+    font-size: 3vw;
+}
+
+#patata {
     background-color: #28ECA5;
+}
+
+.cuatro-columnas {
+    padding: 50px;
+    float: left;
+    width: 25%;
+    text-align: center;
+}
+
+.una-columna h1 {
+    margin: 0% 15%;
+    text-align: center;
+}
+
+.cuatro-columnas img {
+    width: 100%;
+}
+
+.cuatro-dos {
+    float: left;
+    width: 25%;
+}
+
+.cuatro-dos .desc {
+    text-align: center;
+}
+
+.cuatro-dos img {
+    width: 100%;
+}
+
+.patata {
+    background-color: #46A6FC;
+}
+
+.dos-columnas-footer {
+    padding: 20px;
+    float: left;
+    width: 50%;
+    display: 20px;
+    padding-top: 2.4%;
+    padding-right: 25%;
+}
+
+#footer-b {
+    background-color: black;
+    color: white;
 }
 
 .row:after {
@@ -26,29 +96,11 @@ body {
     clear: both;
 }
 
-.cuatro-dos {
-    padding: 20px;
-    float: left;
-    width: 25%;
-}
-
-.cuatro-dos .desc {
-    padding: 10px;
-    text-align: center;
-}
-
-.cuatro-dos img {
-    width: 100%;
-}
-
-#section-5 {
-    background-color: #46A6FC;
-}
-
 @media screen and (max-width:700px) {
+    .section-2,
+    .section-1,
     .cuatro-dos,
-    .four-column,
-    .three-column {
+    .cuatro-columnas {
         width: 50%;
     }
 }
